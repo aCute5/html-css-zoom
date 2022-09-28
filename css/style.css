@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    
+}
+header{
+    display: flex;
+    background-color: black;
+    justify-content: flex-end;
+    align-items: center;
+    height: 8vh;
+}   
+   
+
+.speaker-container {
+                    color: white;
+                    background-color: grey;
+                
+}
+main{
+    height: 84vh;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.container-webcam{
+                  max-height: 800px;
+                  padding:1em;
+                  max-width: 1400px;
+                  display: flex;
+                  flex-wrap: wrap;
+                  gap: 0,2em;
+}
+.webcam{
+        width:14%;
+        max-height:25%;
+        font-size: 14px;
+        position: relative;
+}
+.webcam img{
+            object-fit: contain;
+            width: 179px;
+            height: 133px;
+}
+.user-name{
+            position: absolute;
+            bottom: 35px;
+            left: 5px;
+            color: white;
+            
+}        
+footer{
+        height: 8vh;
+        display: flex;
+        justify-content: space-between;
+}
+.footer-start{
+              color: white;
+}
+       
+        
+
+
+           
+
+            
+
+
+                  
+
+                    
+
