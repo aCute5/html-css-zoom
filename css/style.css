@@ -5,6 +5,7 @@
 }
 body{
     background-color: black;
+    position: relative;
     
 }
 header{
@@ -19,6 +20,7 @@ header{
                  color:white;
                  padding: 0.5em;
                  text-align: center;
+                 position: fixed;
                  
 } 
 .speaker-container span{
@@ -29,7 +31,7 @@ header{
             
 }    
 main{
-    height: 84vh;
+    height: 90vh;
     background-color: black;
     position: relative;
     display: flex;
@@ -69,7 +71,10 @@ footer{
         justify-content: space-between;
         font-size: 20px;
         background-color: rgb(41, 41, 41);
-        width: 100vw;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+        
 }
 footer i{
         font-size: 30px;
@@ -79,17 +84,44 @@ footer span{
 }
 
 .footer-start{
-              color: white;
-              width: 200px;
-              display: flex;
-              flex-wrap: nowrap;
-              justify-content: center;
-              align-items: center;
-              gap: 1em;
-              padding: 0.5em;
-              text-align: center;
-              
+       color: white;
+       width: 200px;
+       display: flex;
+       flex-wrap: nowrap;
+       justify-content: center;
+       align-items: center;
+       gap: 1em;
+       padding: 0.5em;
+       text-align: center;       
+}       
+.footer-middle{
+        color: white;
+        width: 600px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+        padding: 2em;
+        text-align: center;
 }
+#share{
+        color: green;
+}
+.footer-end{
+    background-color: rgb(78, 78, 78);
+    height: 100%;
+    width: 200px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+
+}
+
+             
+
               
        
         
