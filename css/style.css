@@ -11,19 +11,26 @@ header{
     display: flex;
     background-color: black;
     justify-content: flex-end;
-    align-items: center;
+    align-items: flex-start;
     height: 8vh;
+    
 }   
-   
-
-.speaker-container {
-                    color: white;
-                    background-color: grey;
-                
-}
+.speaker-container{
+                 color:white;
+                 padding: 0.5em;
+                 text-align: center;
+                 
+} 
+.speaker-container span{
+            background-color: rgb(41, 41, 41);
+            padding: 0.2em;
+            font-size: smaller;
+            
+            
+}    
 main{
     height: 84vh;
-    background-color: rgb(255, 255, 255);
+    background-color: black;
     position: relative;
     display: flex;
     justify-content: center;
@@ -60,17 +67,46 @@ footer{
         height: 8vh;
         display: flex;
         justify-content: space-between;
+        font-size: 20px;
+        background-color: rgb(41, 41, 41);
+        width: 100vw;
 }
+footer i{
+        font-size: 30px;
+}
+footer span{
+            font-size: 12px;
+}
+
 .footer-start{
               color: white;
+              width: 200px;
+              display: flex;
+              flex-wrap: nowrap;
+              justify-content: center;
+              align-items: center;
+              gap: 1em;
+              padding: 0.5em;
+              text-align: center;
+              
 }
+              
        
         
 
 
            
 
-            
+
+
+                          
+               
+
+
+                        
+
+
+
 
 
                   
